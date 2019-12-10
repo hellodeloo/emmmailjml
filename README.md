@@ -1,4 +1,4 @@
-# Emmmail
+# Emmmailjml
 
 **Emmmailjml** est un starter-kit qui aide à l'intégration d'emails responsifs.
 
@@ -11,7 +11,7 @@ git clone git@github.com:hellodeloo/emmmailjml.git
 ```
 
 ```
-cd emmmail
+cd emmmail-demo
 yarn install
 ```
 

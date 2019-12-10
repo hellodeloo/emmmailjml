@@ -1,0 +1,113 @@
+<mjml>
+  <mj-head>
+    <mj-title>Banque Populaire</mj-title>
+    <mj-preview>Banque Populaire</mj-preview>
+
+    <mj-attributes>
+      <mj-all font-family="Arial" />
+      <mj-breakpoint width="480px" />
+      <mj-section padding="16px 0" />
+      <mj-text padding="0 0 16px 0" font-size="16px" line-height="24px" color="#ffffff" />
+      <mj-image padding="0" />
+    </mj-attributes>
+
+    <mj-style>
+      .preheader-text a {
+      color: #C5C5C5;
+      }
+
+      .footer-text a {
+      color: #666;
+      }
+
+      .content01-section {
+      background-color: #1A7AAB;
+      background-image: linear-gradient(233deg, #03C9EF 0%, #2D3972 100%) !important;
+      }
+
+      .sm-hide {
+      display: inline;
+      }
+
+      @media (max-width:480px) {
+      .sm-hide {
+      display: none;
+      }
+      }
+
+      @media (max-width:641px) {
+      .header-section > table,
+      .section > table {
+      width: 95% !important;
+      }
+
+      .content01-section > tbody > tr > td > div > table,
+      .bandeau-section > tbody > tr > td > div > table,
+      .footer-section > tbody > tr > td > div > table {
+      width: 95% !important;
+      }
+      }
+    </mj-style>
+  </mj-head>
+
+
+  <!-- BODY -->
+  <mj-body width="640px">
+    <!-- WRAPPER -->
+
+
+    <!-- PREHEADER -->
+    <mj-section css-class="section">
+      <mj-column>
+        <mj-text css-class="preheader-text" align="center" padding="0" font-size="12px" color="#C5C5C5">
+          Si cet e-mail ne s'affiche pas correctement, <a href="{{ mirror }}" target="_blank">consulter sa version en ligne</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <!-- LOGO -->
+    <mj-section css-class="section">
+      <mj-column>
+        <mj-image href="https://www.rivesparis.banquepopulaire.fr/portailinternet/Pages/default.aspx" width="210px" src="bp-header-logo.png" />
+      </mj-column>
+    </mj-section>
+
+
+    <!-- CONTENT01 -->
+    <mj-section css-class="content01-section" background-color="#1A7AAB" full-width="full-width" padding="24px 0 24px 0">
+      <mj-column>
+        <mj-image src="bp-header-bg.png" alt="TOUJOURS EN CONTACT L’APPLI BANQUE POP PARTOUT AVEC MOI*" />
+        <mj-spacer height="24px" />
+        <mj-text align="center">Vous avez récemment participé à notre atelier digital <br class="sm-hide"> <b>#ToujoursEnContact</b> et nous vous en remercions. </mj-text>
+        <mj-text align="center">Retrouvez, dès maintenant, les principales fonctionnalités de <br class="sm-hide"> l’appli Banque Pop en vidéo :</mj-text>
+        <mj-spacer height="24px" />
+        <mj-image width="470px" src="content-img01.jpg" alt="L’appli Banque Pop en vidéo" />
+        <mj-spacer height="24px" />
+        <mj-text align="center">Désormais, elle n’a plus de secret pour vous…</mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <!-- BANDEAU -->
+    <mj-section css-class="bandeau-section" background-color="#132759" full-width="full-width" padding="8px 0 8px 0">
+      <mj-column>
+        <mj-text align="center" font-size="14px" font-weight="700" line-height="24px" color="#ffffff" padding="0">
+          Proche de vous, engagée à vous offrir une banque toujours plus humaine et digitale.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+
+    <!-- FOOTER -->
+    <mj-section css-class="footer-section" background-color="#D8D8D8" full-width="full-width" padding="24px 0 24px 0">
+      <mj-column>
+        <mj-text css-class="footer-text" font-size="12px" color="#5C5C5C" line-height="16px">*Sous réserve de compatibilité de votre smartphone.</mj-text>
+        <mj-text css-class="footer-text" font-size="12px" color="#5C5C5C" line-height="16px">Banque Populaire Rives de Paris - Société anonyme coopérative de Banque Populaire à capital variable, régie par les articles L 512-2 et suivants du Code monétaire et financier et l'ensemble des textes relatifs aux Banques Populaires et aux établissements de crédit - 552 002 313 RCS Paris - Société immatriculée au Registre des Intermédiaires en Assurance sous le N° 07 022 545 - 76-78, avenue de France 75204 Paris Cedex 13 - Téléphone : 01 73 07 48 37 - Télécopie 01 73 07 78 05 - Internet : <a href="https://www.rivesparis.banquepopulaire.fr/portailinternet/Pages/Default.aspx" target="_blank">www.rivesparis.banquepopulaire.fr</a> - Numéro d’identification intracommunautaire FR 59 552 002 313. Code APE 6419 Z. Création : Pommeclic.</mj-text>
+        <mj-text css-class="footer-text" font-size="12px" color="#5C5C5C" line-height="16px" padding="0 0 0 0">Si vous souhaitez vous désabonner de nos emailings, <a href="{{ unsubscribe }}" class="blank">cliquez ici</a>.</mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

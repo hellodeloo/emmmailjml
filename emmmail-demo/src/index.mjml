@@ -12,6 +12,14 @@
     </mj-attributes>
 
     <mj-style>
+      /* Force Light Mode */
+      @media screen and (prefers-color-scheme: light) {
+      body {
+      background-color: #ffffff;
+      color: #000000;
+      }
+      }
+
       .preheader-text a {
       color: #C5C5C5;
       }

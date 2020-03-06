@@ -118,6 +118,7 @@ export function htmlreplace() {
     )
     .pipe(replace('url("', 'url("' + email.emailUrl))
     .pipe(replace("url('", "url('" + email.emailUrl))
+    .pipe(replace('url(', 'url(' + email.emailUrl))
     .pipe(replace('src="', 'src="' + email.emailUrl))
     .pipe(replace('background="', 'background="' + email.emailUrl))
     .pipe(rename('mail.html'))

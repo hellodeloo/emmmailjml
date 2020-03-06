@@ -3,9 +3,10 @@
     <mj-title>Banque Populaire</mj-title>
     <mj-preview>Banque Populaire</mj-preview>
 
+    <mj-breakpoint width="480px" />
+
     <mj-attributes>
       <mj-all font-family="Arial" />
-      <mj-breakpoint width="480px" />
       <mj-section padding="16px 0" />
       <mj-text padding="0 0 16px 0" font-size="16px" line-height="24px" color="#ffffff" />
       <mj-image padding="0" />
